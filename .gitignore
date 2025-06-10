@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+# If you keep your virtualenv in a folder named differently, add it here.
+
+# VS Code settings
+.vscode/
+
+# PyCharm/JetBrains
+.idea/
+
+# Logs
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python environment variables file
+.env
+.env.*  # if you have environment-specific files
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Sphinx documentation
+docs/_build/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Local SQLite database files (if any)
+*.sqlite3
+
+# Model weights / outputs
+# If your weight files (e.g., volov8n.pt) are large and you do NOT want to track them in Git, ignore the weights directory:
+weights/
+# Alternatively, you can track only some small files, but typically model weights are large: consider Git LFS instead.
+# If you DO want to commit small custom weights, remove or adjust this line accordingly.
+
+# YOLO or dataset caches
+runs/          # e.g., if you run training & YOLO outputs to runs/
+results/       # adjust if your code writes results dirs
+
+# Temporary files
+tmp/
+*.tmp
+
+# Optional: config files with secrets
+# If config.py contains API keys or secrets, do not commit it. Instead, commit config.template.py and ignore config.py:
+# config.py
+
+# Editor swap files, etc.
+*~
+*.swp
+
