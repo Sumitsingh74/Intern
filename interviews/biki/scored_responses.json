@@ -1,0 +1,20 @@
+[
+    {
+        "question": "What is a process in an operating system?",
+        "answer": "in an Operating System a process is a program in execution it is the fundamental unit of work that OS manages including its code data and resources essentially when you run a program it become it becomes a process",
+        "gpt_4_score": 6.0,
+        "gemini_1.5_score": 6.0,
+        "opus_4_score": 6.0,
+        "llama_3.3_score": 8.0,
+        "average_score": 6.5
+    },
+    {
+        "question": "What is a system call in OS?.",
+        "answer": "a system call in operating system is a call made by different applications present in the system to the kernel which is the heart of the operating system or core of the operating system for some particular operating system services the services can be anything like asking for some resources for input output or anything this is what system call is",
+        "gpt_4_score": 4.0,
+        "gemini_1.5_score": 4.0,
+        "opus_4_score": 6.0,
+        "llama_3.3_score": 6.0,
+        "average_score": 5.0
+    }
+]
